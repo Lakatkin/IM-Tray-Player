@@ -1,0 +1,265 @@
+object EQ_BOX: TEQ_BOX
+  Left = 558
+  Top = 129
+  AlphaBlend = True
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'EQ BOX'
+  ClientHeight = 96
+  ClientWidth = 236
+  Color = clGray
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PopupMenu = PopupMenu1
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnMouseDown = FormMouseDown
+  OnPaint = FormPaint
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ImgTrackBar11: TImgTrackBar
+    Left = 35
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    Visible = False
+    Prog2Pos = True
+    BackProgress = True
+    Max = 100
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 50
+    Position = 50
+  end
+  object ImgTrackBar2: TImgTrackBar
+    Tag = 2
+    Left = 72
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgTrackBar3: TImgTrackBar
+    Tag = 3
+    Left = 90
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgTrackBar4: TImgTrackBar
+    Tag = 4
+    Left = 108
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgTrackBar5: TImgTrackBar
+    Tag = 5
+    Left = 126
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgTrackBar6: TImgTrackBar
+    Tag = 6
+    Left = 144
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgTrackBar7: TImgTrackBar
+    Tag = 7
+    Left = 162
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgTrackBar8: TImgTrackBar
+    Tag = 8
+    Left = 179
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgTrackBar9: TImgTrackBar
+    Tag = 9
+    Left = 198
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgTrackBar10: TImgTrackBar
+    Tag = 10
+    Left = 216
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgTrackBar1: TImgTrackBar
+    Tag = 1
+    Left = 53
+    Top = 27
+    Width = 7
+    Height = 56
+    Cursor = crHandPoint
+    OnMouseUp = ImgTrackBar1MouseUp
+    Prog2Pos = True
+    BackProgress = True
+    Max = 30
+    Min = 0
+    MaxProg = 100
+    MinProg = 0
+    Progress_ = 15
+    Position = 15
+  end
+  object ImgButton1: TImgButton
+    Left = 211
+    Top = 6
+    Width = 14
+    Height = 14
+    Cursor = crHandPoint
+    Hint = #1047#1072#1082#1088#1099#1090#1100
+    ParentShowHint = False
+    ShowHint = True
+    OnClick = ImgButton1Click
+    UseAsCheckBox = False
+    Checked = False
+  end
+  object ImgButton2: TImgButton
+    Left = 9
+    Top = 8
+    Width = 21
+    Height = 11
+    Cursor = crHandPoint
+    Hint = #1042#1082#1083#1102#1095#1080#1090#1100' '#1069#1082#1074#1072#1083#1072#1081#1079#1077#1088
+    ParentShowHint = False
+    ShowHint = True
+    OnClick = ImgButton2Click
+    UseAsCheckBox = True
+    Checked = False
+  end
+  object PopupMenu1: TPopupMenu
+    Top = 48
+    object N1: TMenuItem
+      Caption = #1047#1072#1075#1088#1091#1079#1080#1090#1100
+      object N3: TMenuItem
+        Caption = #1057#1090#1072#1085#1076#1072#1088#1090#1085#1099#1081
+        object N4: TMenuItem
+          Caption = #1054#1090#1082#1088#1099#1090#1100
+          OnClick = N4Click
+        end
+      end
+    end
+    object N2: TMenuItem
+      Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+      OnClick = N2Click
+    end
+  end
+  object PopupMenu3: TPopupMenu
+    Top = 88
+    object N7: TMenuItem
+      Caption = #1054#1090#1082#1088#1099#1090#1100
+      OnClick = N7Click
+    end
+    object N8: TMenuItem
+      Caption = #1059#1076#1072#1083#1080#1090#1100
+      OnClick = N8Click
+    end
+  end
+end
